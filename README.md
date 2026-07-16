@@ -1,16 +1,78 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Password Generator built using **React**, **Vite**, and **JavaScript**. This application allows users to generate secure passwords with customizable options such as password length, numbers, and special characters. It also includes a one-click copy feature for convenience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Generate strong and random passwords
+- Adjust password length using a slider
+- Include numbers (0–9)
+- Include special characters (!@#$%^&*)
+- Copy generated password to clipboard with one click
+- Clean and user-friendly interface
+- Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+
+---
+
+## 📸 Screenshot
+
+
+
+---
+
+## 📂 Project Structure
+
+```
+PasswordGenerator/
+│── public/
+│── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│── package.json
+│── vite.config.js
+└── README.md
+```
+---
+
+## 🎯 How to Use
+
+1. Open the application.
+2. Select the desired password length using the slider.
+3. Enable **Include Numbers** if required.
+4. Enable **Include Special Characters** if required.
+5. A secure password will be generated automatically.
+6. Click the **Copy Password** button to copy the generated password.
+
+---
+
+## 📌 Future Improvements
+
+- Add uppercase and lowercase toggle
+- Password strength indicator
+- Password history
+- Dark/Light theme
+- Mobile-friendly enhancements
+
+---
+
+
+## 👨‍💻 Author
+
+**Devansh Varun**
+
+B.Tech CSIT Student | Full Stack Developer
+
+GitHub: https://github.com/Devansh-vr
